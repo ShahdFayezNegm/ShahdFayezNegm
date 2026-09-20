@@ -2,13 +2,13 @@
 
 # 👋 Hi, I'm Shahd Fayez
 
-### Artificial Intelligence Engineer | Machine Learning | Deep Learning | Computer Vision
+### AI Engineer | Machine Learning | Computer Vision | RAG/LLM | ML Deployment
 
 <p>
-Passionate about designing intelligent systems that transform data into impactful solutions through Artificial Intelligence.
+Building end-to-end AI systems that turn data, models, and research into practical applications.
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Artificial+Intelligence+Engineer;Computer+Vision+Developer;Machine+Learning+Engineer;Deep+Learning+Enthusiast;Building+AI+Solutions+for+Real+World+Problems"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=AI+Engineer;Machine+Learning+Engineer;Computer+Vision+Developer;RAG+%26+LLM+Developer;Building+Deployable+AI+Systems"/>
 
 <br>
 
@@ -32,40 +32,45 @@ Passionate about designing intelligent systems that transform data into impactfu
 
 # 👩‍💻 About Me
 
-I'm an Artificial Intelligence Engineer passionate about developing intelligent systems using Machine Learning, Deep Learning, and Computer Vision.
+I'm an AI Engineer focused on building practical Machine Learning and Deep Learning systems.
 
-I enjoy building end-to-end AI solutions—from data preprocessing and feature engineering to model development, optimization, evaluation, and deployment. My goal is to create scalable AI applications that solve real-world challenges through intelligent automation and data-driven decision making.
+My work spans **Computer Vision, RAG/LLM applications, Healthcare AI, time-series anomaly detection, and ML deployment**.
+
+I enjoy working across the full AI development lifecycle—from data preprocessing and model development to evaluation, API development, containerization, and deployment.
 
 ---
 
 # 🚀 Current Focus
 
-- 🛒 AI Smart Shopping Cart
-- 👁️ Computer Vision Applications
-- 🤖 Object Detection & Multi-Object Tracking
-- 📄 OCR Systems
-- 🌦️ Machine Learning Prediction Models
-- 🌐 AI + IoT Solutions
+* 🤖 Machine Learning & Deep Learning
+* 👁️ Computer Vision & Object Detection
+* 🧠 RAG & LLM Applications
+* 🏥 Healthcare & Medical AI
+* 📊 Time-Series & Anomaly Detection
+* 🌐 ML APIs with FastAPI
+* 🐳 Dockerized ML Applications
+* ☁️ ML Model Deployment
 
 ---
 
 # 💡 AI Expertise
 
-- Machine Learning
-- Deep Learning
-- Computer Vision
-- Object Detection
-- Multi-Object Tracking
-- OCR
-- Image Processing
-- Image Classification
-- Video Processing
-- Feature Engineering
-- Data Preprocessing
-- Transfer Learning
-- Model Evaluation
-- Hyperparameter Tuning
-- Intelligent Automation
+* Machine Learning
+* Deep Learning
+* Computer Vision
+* Object Detection & Tracking
+* Image Classification
+* Image Processing
+* Natural Language Processing
+* Retrieval-Augmented Generation (RAG)
+* Semantic Search
+* Embeddings & Vector Search
+* Time-Series Analysis
+* Anomaly Detection
+* Feature Engineering
+* Data Preprocessing
+* Model Evaluation
+* Model Deployment
 
 ---
 
@@ -73,30 +78,31 @@ I enjoy building end-to-end AI solutions—from data preprocessing and feature e
 
 ### Programming Languages
 
-- Python
-- C++
-- SQL
+Python • C++ • SQL
 
-### AI Frameworks & Libraries
+### Machine Learning & Deep Learning
 
-- TensorFlow
-- Keras
-- OpenCV
-- Scikit-learn
-- NumPy
-- Pandas
-- Matplotlib
+PyTorch • TensorFlow • Keras • Scikit-learn
 
-### Tools & Technologies
+### Computer Vision
 
-- Git
-- GitHub
-- Visual Studio Code
-- Visual Studio
-- Google Colab
-- Jupyter Notebook
-- Unity
-- ESP32
+OpenCV • YOLO • Object Detection • Object Tracking
+
+### LLM / RAG
+
+Llama • FAISS • BM25 • Embeddings • Cross-Encoder Reranking • Semantic Search
+
+### Backend & Deployment
+
+FastAPI • REST APIs • OpenAPI / Swagger • Docker
+
+### Data & Visualization
+
+NumPy • Pandas • Matplotlib
+
+### Tools
+
+Git • GitHub • Jupyter • Google Colab • VS Code
 
 ---
 
@@ -105,19 +111,17 @@ I enjoy building end-to-end AI solutions—from data preprocessing and feature e
 ```text
 Problem Definition
         ↓
-Data Collection
-        ↓
-Data Preprocessing
+Data Collection & Preprocessing
         ↓
 Feature Engineering
         ↓
 Model Development
         ↓
-Training
-        ↓
-Evaluation
+Training & Evaluation
         ↓
 Optimization
+        ↓
+API Development
         ↓
 Deployment
 ```
@@ -126,83 +130,109 @@ Deployment
 
 # ⭐ Featured Projects
 
-## 🛒 AI Smart Shopping Cart
+## ⌚ Wearable Anomaly Detection
 
-Designed and developed an AI-powered retail solution that combines Computer Vision and Deep Learning to automate product recognition and provide a seamless shopping experience without barcode scanning.
+An end-to-end time-series anomaly detection system using an **LSTM Autoencoder** to identify anomalous patterns in wearable sensor data.
 
-### Key Features
-
-- Real-Time Product Detection
-- Multi-Object Tracking
-- Automatic Cart Management
-- Customer Statistics Dashboard
-- Shopping Analytics
-- Smart Checkout Workflow
+The project includes a REST API for model inference and deployment using FastAPI and Docker.
 
 **Technologies**
 
-Python • OpenCV • YOLO • Deep Learning • Computer Vision
+Python • PyTorch • LSTM Autoencoder • FastAPI • Docker • OpenAPI
+
+🔗 [View Project](https://github.com/ShahdFayezNegm/wearable-anomaly-detection)
 
 ---
 
-## 🔍 OCR System
+## 🩺 Medical RAG Assistant
 
-Developed an OCR pipeline capable of recognizing printed text using Computer Vision and Deep Learning.
+A Retrieval-Augmented Generation system for answering questions from medical documents using semantic and lexical retrieval with reranking.
 
-### Features
+**Technologies**
 
-- Image Enhancement
-- Text Detection
-- Character Recognition
-- OCR Pipeline
+Python • Llama 3.1 • FAISS • BM25 • Embeddings • Cross-Encoder Reranking
 
----
-
-## 🌦️ Weather Prediction
-
-Built Machine Learning models for weather prediction through data preprocessing, feature engineering, model training, and evaluation.
+🔗 [View Project](https://github.com/ShahdFayezNegm/Medical-RAG-Assistant)
 
 ---
 
-## 🤖 Smart AI + IoT System
+## 🛒 AI Smart Shopping Cart
 
-Designed an intelligent monitoring system integrating ESP32, RFID, sensors, LCD, and servo motors for automation and real-time monitoring.
+An AI-powered smart retail system that uses Computer Vision to recognize products and automate shopping-cart interactions.
+
+### Key Features
+
+* Real-Time Product Detection
+* Multi-Object Tracking
+* Automatic Cart Management
+* Shopping Analytics
+* Smart Checkout Workflow
+
+**Technologies**
+
+Python • YOLO • OpenCV • Computer Vision • Raspberry Pi
 
 ---
 
-# 📖 Research Interests
+## 🧬 Bio-Forget
 
-- Computer Vision
-- Explainable AI (XAI)
-- Vision Transformers
-- Edge AI
-- Smart Retail Systems
-- Intelligent Surveillance
-- AI for Healthcare
-- Embedded AI
+A research-oriented Machine Learning project exploring **Machine Unlearning for genomic disease detection**, including SISA-based unlearning approaches.
+
+**Technologies**
+
+Python • Deep Learning • Bioinformatics • Machine Unlearning
+
+🔗 [View Project](https://github.com/ShahdFayezNegm/Bio-Forget)
+
+---
+
+## 🎯 Real-Time Object Detection & Tracking
+
+A real-time video analysis project using YOLO-based object detection and multi-object tracking.
+
+**Technologies**
+
+Python • YOLOv8 • OpenCV • BoT-SORT
+
+🔗 [View Project](https://github.com/ShahdFayezNegm/CodeAlpha_Object_Detection_Tracking)
+
+---
+
+# 🔬 Areas of Interest
+
+* AI for Healthcare
+* Medical AI
+* Computer Vision
+* Generative AI & RAG
+* Machine Learning Engineering
+* ML Deployment
+* MLOps
+* Edge AI
+* Explainable AI
+* Bioinformatics
 
 ---
 
 # 🌟 Soft Skills
 
-- Problem Solving
-- Critical Thinking
-- Analytical Thinking
-- Team Collaboration
-- Communication
-- Research Skills
-- Continuous Learning
-- Technical Documentation
+* Problem Solving
+* Critical Thinking
+* Analytical Thinking
+* Team Collaboration
+* Communication
+* Research Skills
+* Technical Documentation
+* Continuous Learning
 
 ---
 
 # ⚡ Quick Facts
 
-- 🎓 Artificial Intelligence Engineer
-- 🤖 Passionate about Computer Vision
-- 💡 Building AI solutions for real-world applications
-- 📚 Continuously learning and exploring emerging AI technologies
-- 🚀 Open to AI, Machine Learning, and Computer Vision opportunities
+* 🎓 Artificial Intelligence Engineer
+* 🤖 Building practical AI and Machine Learning systems
+* 🧠 Interested in RAG, Computer Vision, and Healthcare AI
+* 🌐 Interested in deployable and production-oriented ML applications
+* 🚀 Open to AI, Machine Learning, Computer Vision, and AI Engineering opportunities
 
 ---
 
@@ -210,7 +240,7 @@ Designed an intelligent monitoring system integrating ESP32, RFID, sensors, LCD,
 
 📧 **Email**
 
-**shahdfayeznegm661@gmail.com**
+**[shahdfayeznegm661@gmail.com](mailto:shahdfayeznegm661@gmail.com)**
 
 💼 **LinkedIn**
 
@@ -224,6 +254,6 @@ https://github.com/ShahdFayezNegm
 
 <div align="center">
 
-### 💙 Building intelligent systems that transform ideas into impactful AI solutions.
+### 💙 Building AI systems from research and ideas into practical applications.
 
 </div>
